@@ -1,0 +1,17 @@
+MODEL PERFORMANCE COMPARISON
+========================================
+
+Logistic Regression
+Accuracy:0.7946
+Precision:0.7479
+Recall:0.7946
+F1:0.7202
+
+LSTM
+Accuracy:0.8069
+Precision:0.7782
+Recall:0.8069
+F1:0.7599
+
+========================================
+Conclusion: LSTM outperforms Logistic Regression.
