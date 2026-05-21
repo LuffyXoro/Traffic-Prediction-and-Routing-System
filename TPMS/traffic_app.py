@@ -8,6 +8,10 @@ import openrouteservice
 import folium
 import os
 from streamlit_folium import st_folium
+from dotenv import load_dotenv
+
+
+load_dotenv()
 
 
 BASE_DIR  = os.path.dirname(__file__)
@@ -43,7 +47,6 @@ def load_all():
 model, scaler, label_encoders, seq_feature_cols, le_target = load_all()
 
 
-API_KEY = "5b3ce3597851110001cf6248eb117ba2f9774812b0e9a0f752bfa7f1"
 client  = openrouteservice.Client(key=API_KEY)
 
 

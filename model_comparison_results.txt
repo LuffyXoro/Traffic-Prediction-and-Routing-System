@@ -8,10 +8,10 @@ Recall:0.7946
 F1:0.7202
 
 LSTM
-Accuracy:0.8069
-Precision:0.7782
-Recall:0.8069
-F1:0.7599
+Accuracy:0.8059
+Precision:0.7750
+Recall:0.8059
+F1:0.7621
 
 ========================================
 Conclusion: LSTM outperforms Logistic Regression.

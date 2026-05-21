@@ -4,8 +4,11 @@ import streamlit as st
 import openrouteservice
 import folium
 from streamlit_folium import st_folium
+from dotenv import load_dotenv
+import os
+import openrouteservice
 
-API_KEY = "5b3ce3597851110001cf6248eb117ba2f9774812b0e9a0f752bfa7f1"
+load_dotenv()
 
 client = openrouteservice.Client(key=API_KEY)
 st.title("🚗🏍️ Alternative Route Finder with Dynamic Location Selection")
